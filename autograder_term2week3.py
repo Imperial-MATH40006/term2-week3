@@ -2,6 +2,7 @@ import numpy.testing as npt
 from time import time
 from plotchecker import LinePlotChecker
 from numpy import isclose, allclose, linspace, cos, exp, sin, pi, array, poly1d, polyval
+import csv
 usernamefile = open('usernames.csv', 'r')
 usernames = list(csv.reader(usernamefile))[0]
 usernamefile.close()
