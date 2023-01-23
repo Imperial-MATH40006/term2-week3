@@ -216,10 +216,16 @@ def question2_ib():
 def question2_ic():   
     return 2
 
+def question2_id():   
+    return 4
+
 def question2_iia():   
     return 3
 
 def question2_iib():   
+    return 4
+
+def question2_iic():   
     return 4
 
 def question3_ia():   
